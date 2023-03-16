@@ -4,7 +4,6 @@ import Frontend from "./Frontend";
 import "./skills.css";
 
 const Skills = () => {
-  const [data, setData] = React.useState(false);
   return (
     <section className="skills section" id="skills">
       <h2 className="section__title">Skills</h2>
