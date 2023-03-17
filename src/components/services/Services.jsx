@@ -8,8 +8,6 @@ const Services = () => {
     setToggleState(index);
   };
 
-  console.log(toggleState);
-
   return (
     <section className="services section" id="services">
       <h2 className="section__title">Services</h2>

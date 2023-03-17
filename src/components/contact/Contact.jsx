@@ -36,7 +36,7 @@ const Contact = () => {
 
           <div className="contact__info">
             <div className="contact__card">
-              <i class="bx bx-mail-send contact__card-icon"></i>
+              <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">ingdcuevas@gmail.com</span>
@@ -47,12 +47,12 @@ const Contact = () => {
                 target={"_blank"}
               >
                 Write me
-                <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
 
             <div className="contact__card">
-              <i class="bx bxl-whatsapp contact__card-icon"></i>
+              <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">+57 3202680705</span>
@@ -63,12 +63,12 @@ const Contact = () => {
                 target={"_blank"}
               >
                 Write me
-                <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
 
             <div className="contact__card">
-              <i class="bx bxl-messenger contact__card-icon"></i>
+              <i className="bx bxl-messenger contact__card-icon"></i>
 
               <h3 className="contact__card-title">Messenger</h3>
               <span className="contact__card-data">diego.amaya.5</span>
@@ -79,7 +79,7 @@ const Contact = () => {
                 target={"_blank"}
               >
                 Write me
-                <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
           </div>

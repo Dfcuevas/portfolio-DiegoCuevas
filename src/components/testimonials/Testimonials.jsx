@@ -12,7 +12,6 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper";
 
 const Testimonials = () => {
-  console.log(Data);
   return (
     <section className="testimonial container section">
       <h2 className="section__title">My clients say</h2>

@@ -11,7 +11,7 @@ const ScrollUp = () => {
   });
   return (
     <a href="#" className="scrollup">
-      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+      <i className="bx bx-up-arrow-alt scrollup__icon"></i>
     </a>
   );
 };
