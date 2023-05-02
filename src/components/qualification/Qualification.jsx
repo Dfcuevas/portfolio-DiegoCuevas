@@ -26,7 +26,7 @@ const Qualification = () => {
             <i className="bx bxs-graduation qualification__icon"></i> Education
           </div>
 
-          <div
+         {/*  <div
             className={
               toggleState === 2
                 ? "qualification__button qualification__active button--flex"
@@ -36,7 +36,7 @@ const Qualification = () => {
           >
             <i className="bx bx-briefcase-alt qualification__icon"></i>
             Experience
-          </div>
+          </div> */}
         </div>
 
         <div className="qualification__sections">
@@ -47,7 +47,7 @@ const Qualification = () => {
                 : "qualification__content "
             }
           >
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Web Design</h3>
                 <span className="qualification__subtitle">
@@ -62,6 +62,42 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
+            </div> */}
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Fullstack Developer</h3>
+                <span className="qualification__subtitle">
+                  Henry
+                </span>
+                <div className="qualification__calendar">
+                  <i className="bx bxs-calendar-alt"></i> Jan 2022 - Oct 2022
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Frontend Arquitect</h3>
+                <span className="qualification__subtitle">
+                  Platzi
+                </span>
+                <div className="qualification__calendar">
+                  <i className="bx bxs-calendar-alt"></i> Jan 2020 - Dec 2020
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
             </div>
 
             <div className="qualification__data">
@@ -73,54 +109,18 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">Telecomunications Engineer</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Universidad de Pamplona - Pamplona
                 </span>
                 <div className="qualification__calendar">
-                  <i className="bx bxs-calendar-alt"></i> 2020 - 2021
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
-                <div className="qualification__calendar">
-                  <i className="bx bxs-calendar-alt"></i> 2018 - 2020
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">Ux Expert</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
-                <div className="qualification__calendar">
-                  <i className="bx bxs-calendar-alt"></i> 2017 - 2018
+                  <i className="bx bxs-calendar-alt"></i> 2010 - 2015
                 </div>
               </div>
             </div>
           </div>
 
-          <div
+          {/* <div
             className={
               toggleState === 2
                 ? "qualification__content qualification__content-active"
@@ -177,7 +177,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

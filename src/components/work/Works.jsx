@@ -4,10 +4,11 @@ import WorksItems from "./WorksItems";
 
 const Works = () => {
   const [item, setItem] = useState({ name: "all" });
-  const [projects, setProjects] = useState([]);
+  const [projects, setProjects] = useState(projectsData);
   const [active, setActive] = useState(0);
 
-  useEffect(() => {
+  
+ /*  useEffect(() => {
     if (item.name === "all") {
       setProjects(projectsData);
     } else {
@@ -16,17 +17,16 @@ const Works = () => {
       );
       setProjects(newProjects);
     }
-  }, [item]);
+  }, [item]); */
 
-  const handleClick = (e, index) => {
+  /* const handleClick = (e, index) => {
     setItem({ name: e.target.textContent.toLowerCase() });
     setActive(index);
-    console.log(index);
-  };
+  }; */
 
   return (
     <div>
-      <div className="work__filters">
+     {/*  <div className="work__filters">
         {projectsNav.map(({ name }, index) => (
           <span
             onClick={(e) => handleClick(e, index)}
@@ -38,7 +38,7 @@ const Works = () => {
             {name}
           </span>
         ))}
-      </div>
+      </div> */}
 
       <div className="work__container container grid">
         {projects.map((item) => (

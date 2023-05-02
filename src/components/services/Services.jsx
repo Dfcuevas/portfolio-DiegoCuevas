@@ -44,7 +44,7 @@ const Services = () => {
               <h3 className="services__modal-title"></h3>
               <p className="services__modal-description">
                 Service with more than 3 years of experience. Providing quality
-                work to clients and companies.
+                work.
               </p>
 
               <ul className="services__modal-services grid">
@@ -57,12 +57,6 @@ const Services = () => {
                 <li className="services__modal-service">
                   <box-icon name="check-circle"></box-icon>
                   <p className="services__modal-info">Web page development.</p>
-                </li>
-                <li className="services__modal-service">
-                  <box-icon name="check-circle"></box-icon>
-                  <p className="services__modal-info">
-                    I create ux element interactions.
-                  </p>
                 </li>
               </ul>
             </div>

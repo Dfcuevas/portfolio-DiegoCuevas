@@ -13,10 +13,23 @@ const About = () => {
         <img src={AboutImg} alt="" className="about__img" />
         <div className="about__data">
           <Info />
-
           <p className="about__description">
-            Aca va mi descripcion como desarrollador web
+            I'm Diego Cuevas and I'm a Frontend Developer Jr.
           </p>
+          <p className="about__description">
+            I have been creating web projects for more than 3 years that have
+            led me to obtain important skills in this field. I have trained at
+            SoyHenry, Platzi, freecodecamp, Codecademy and more bootcamps and
+            learning platforms, always looking to grow and improve as a
+            developer.
+          </p>
+    
+          <p className="about__description">
+            I am passionate about challenges that involve getting out of my
+            comfort zone and researching and learning new technologies to solve
+            different problems.
+          </p>
+      
           <a download="" href={CV} className="button button--flex">
             Download CV
             <svg
