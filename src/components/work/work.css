@@ -45,6 +45,18 @@
   margin-bottom: var(--mb-0-5);
 }
 
+h4.work__title {
+  text-align: center;
+}
+
+.work__list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
 .work__button {
   color: var(--text-color);
   font-size: var(--small-font-size);

@@ -8,7 +8,7 @@ const Works = () => {
   const [active, setActive] = useState(0);
 
   
- /*  useEffect(() => {
+   useEffect(() => {
     if (item.name === "all") {
       setProjects(projectsData);
     } else {
@@ -17,7 +17,7 @@ const Works = () => {
       );
       setProjects(newProjects);
     }
-  }, [item]); */
+  }, [item]); 
 
   /* const handleClick = (e, index) => {
     setItem({ name: e.target.textContent.toLowerCase() });
