@@ -57,7 +57,11 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Web Developer</h3>
       <p className="home__description">
-        I´m a Web Developer very passionate and dedicated to my work
+        +3 Years of experience developing web projects, implementing best
+        development practices, use of languages ​​such as Javascript, CSS and
+        HTML and technologies such as React, React Redux, TailwindCss, Node Js,
+        Git and GitHub. More than 10 personal projects that demonstrate the
+        ability to develop high-quality products and excellent soft skills.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

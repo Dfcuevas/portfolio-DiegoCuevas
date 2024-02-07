@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/perfildiego.jpg";
 import Info from "./Info";
-import CV from "../../assets/Curriculum-Diego-Cuevas.pdf";
+import CV from "../../assets/CV-Diego-Cuevas.pdf";
 
 const About = () => {
   return (
@@ -23,13 +23,13 @@ const About = () => {
             learning platforms, always looking to grow and improve as a
             developer.
           </p>
-    
+
           <p className="about__description">
             I am passionate about challenges that involve getting out of my
             comfort zone and researching and learning new technologies to solve
             different problems.
           </p>
-      
+
           <a download="" href={CV} className="button button--flex">
             Download CV
             <svg
