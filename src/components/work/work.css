@@ -21,8 +21,8 @@
 }
 
 .work__container {
-  grid-template-columns: repeat(2, max-content);
-  gap: 3rem;
+  grid-template-columns: repeat(3, max-content);
+  gap: 2rem;
   justify-content: center;
 }
 
@@ -90,8 +90,10 @@ h4.work__title {
 
 @media screen and (max-width: 992px) {
   .work__container {
+    grid-template-columns: repeat(2, max-content);
     gap: 1.25rem;
   }
+
   .work__card {
     padding: 1rem;
   }

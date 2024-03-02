@@ -55,7 +55,7 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Web Developer</h3>
+      <h3 className="home__subtitle">Frontend Developer</h3>
       <p className="home__description">
         +3 Years of experience developing web projects, implementing best
         development practices, use of languages ​​such as Javascript, CSS and
