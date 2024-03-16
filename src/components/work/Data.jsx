@@ -7,10 +7,26 @@ import Work6 from "../../assets/work6.jpg";
 import Work7 from "../../assets/work7.jpg";
 import Work8 from "../../assets/work8.jpg";
 import Work9 from "../../assets/work9.jpg";
+import Work10 from "../../assets/work10.jpg";
 
 export const projectsData = [
   {
     id: 1,
+    image: Work10,
+    title: "Countries App",
+    link: "https://countriesapplication.netlify.app/",
+    tools: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind Css",
+      "react",
+      "React-router-dom",
+    ],
+    category: "web",
+  },
+  {
+    id: 2,
     image: Work9,
     title: "Shopi E-commerce",
     link: "https://main--shopping-app-project.netlify.app/",
@@ -25,7 +41,7 @@ export const projectsData = [
     category: "web",
   },
   {
-    id: 2,
+    id: 3,
     image: Work6,
     title: "Manage Landing Page",
     link: "https://main--manage-page-proyect.netlify.app/",
@@ -33,7 +49,7 @@ export const projectsData = [
     category: "web",
   },
   {
-    id: 3,
+    id: 4,
     image: Work7,
     title: "Nike Landing Page",
     link: "https://main--calm-muffin-700a5e.netlify.app/#contact-us",
@@ -41,7 +57,7 @@ export const projectsData = [
     category: "web",
   },
   {
-    id: 4,
+    id: 5,
     image: Work8,
     title: "Todo's App",
     link: "https://dfcuevas.github.io/todos-app/",
@@ -57,7 +73,7 @@ export const projectsData = [
   },
 
   {
-    id: 5,
+    id: 6,
     image: Work1,
     title: "Space Tourism Page",
     link: "https://tourism-space-page.netlify.app",
@@ -72,7 +88,7 @@ export const projectsData = [
     category: "web",
   },
   {
-    id: 6,
+    id: 7,
     image: Work2,
     title: "Shortening Url App",
     link: "https://apishorteningurl.netlify.app",
@@ -87,7 +103,7 @@ export const projectsData = [
     category: "app",
   },
   {
-    id: 7,
+    id: 8,
     image: Work3,
     title: "Modern UI Site",
     link: "https://modernuisite.netlify.app",
@@ -95,7 +111,7 @@ export const projectsData = [
     category: "design",
   },
   {
-    id: 8,
+    id: 9,
     image: Work4,
     title: "Rick and Morty",
     link: "https://rymdatapp.netlify.app",
@@ -103,7 +119,7 @@ export const projectsData = [
     category: "app",
   },
   {
-    id: 9,
+    id: 10,
     image: Work5,
     title: "Static Job Listing",
     link: "https://app-job-listing.netlify.app",
