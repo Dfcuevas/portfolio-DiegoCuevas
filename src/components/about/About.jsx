@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/perfildiego.jpg";
 import Info from "./Info";
-import CV from "../../assets/CV-Diego-Cuevas.pdf";
+import CV from "../../assets/Cv-Frontend-Diego-Cuevas.pdf";
 
 const About = () => {
   return (
