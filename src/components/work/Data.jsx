@@ -8,10 +8,33 @@ import Work9 from "../../assets/work9.jpg";
 import Work10 from "../../assets/work10.jpg";
 import Work11 from "../../assets/work11.png";
 import Work12 from "../../assets/twitter-clone.png";
+import work5 from "../../assets/carePulse-img.png";
 
 export const projectsData = [
   {
     id: 1,
+    image: work5,
+    title: "carePulse App",
+    link: "https://carepulse-app.vercel.app/",
+    tools: [
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "Tailwind Css",
+      "NextJs",
+      "Appwrite",
+      "Twilio",
+      "ShadCn/ui",
+      "Zod",
+      "Clsx",
+      "React dropzone",
+      "React Hook Form",
+      "Sentry",
+    ],
+    category: "web",
+  },
+  {
+    id: 2,
     image: Work12,
     title: "Twitter Clone App",
     link: "https://twitter-clone-yb4p.onrender.com",
@@ -31,7 +54,7 @@ export const projectsData = [
     category: "web",
   },
   {
-    id: 2,
+    id: 3,
     image: Work2,
     title: "Chat App",
     link: "https://chat-app-5ivw.onrender.com/",
@@ -53,7 +76,7 @@ export const projectsData = [
     category: "web",
   },
   {
-    id: 3,
+    id: 4,
     image: Work11,
     title: "Apple iPhone Page",
     link: "https://apple-web-site.netlify.app/",
@@ -69,7 +92,7 @@ export const projectsData = [
     category: "web",
   },
   {
-    id: 4,
+    id: 5,
     image: Work10,
     title: "Countries App",
     link: "https://countriesapplication.netlify.app/",
@@ -84,7 +107,7 @@ export const projectsData = [
     category: "web",
   },
   {
-    id: 5,
+    id: 6,
     image: Work9,
     title: "Shopi E-commerce",
     link: "https://main--shopping-app-project.netlify.app/",
@@ -99,7 +122,7 @@ export const projectsData = [
     category: "web",
   },
   {
-    id: 6,
+    id: 7,
     image: Work6,
     title: "Manage Landing Page",
     link: "https://main--manage-page-proyect.netlify.app/",
@@ -107,7 +130,7 @@ export const projectsData = [
     category: "web",
   },
   {
-    id: 7,
+    id: 8,
     image: Work7,
     title: "Nike Landing Page",
     link: "https://main--calm-muffin-700a5e.netlify.app/#contact-us",
@@ -115,7 +138,7 @@ export const projectsData = [
     category: "web",
   },
   {
-    id: 8,
+    id: 9,
     image: Work1,
     title: "Space Tourism Page",
     link: "https://tourism-space-page.netlify.app",
@@ -131,7 +154,7 @@ export const projectsData = [
   },
 
   {
-    id: 9,
+    id: 10,
     image: Work3,
     title: "Modern UI Site",
     link: "https://modernuisite.netlify.app",
@@ -139,7 +162,7 @@ export const projectsData = [
     category: "design",
   },
   {
-    id: 10,
+    id: 11,
     image: Work4,
     title: "Rick and Morty",
     link: "https://rymdatapp.netlify.app",

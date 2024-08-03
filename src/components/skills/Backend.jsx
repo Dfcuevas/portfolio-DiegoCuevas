@@ -15,12 +15,36 @@ const Backend = () => {
               <span className="skills__level">Basic</span>
             </div>
           </div>
+          <div className="skills__data">
+            <box-icon name="badge-check" className="badge-check"></box-icon>
+
+            <div>
+              <h3 className="skills__name">SQL</h3>
+              <span className="skills__level">Basic</span>
+            </div>
+          </div>
 
           <div className="skills__data">
             <box-icon name="badge-check" className="badge-check"></box-icon>
 
             <div>
               <h3 className="skills__name">MongoDB</h3>
+              <span className="skills__level">Basic</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <box-icon name="badge-check" className="badge-check"></box-icon>
+
+            <div>
+              <h3 className="skills__name">PostgreSQL</h3>
+              <span className="skills__level">Basic</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <box-icon name="badge-check" className="badge-check"></box-icon>
+
+            <div>
+              <h3 className="skills__name">Mongoose</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>

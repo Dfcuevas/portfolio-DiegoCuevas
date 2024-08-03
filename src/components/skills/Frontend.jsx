@@ -11,6 +11,14 @@ const Frontend = () => {
             <box-icon name="badge-check" className="badge-check"></box-icon>
 
             <div>
+              <h3 className="skills__name">TypeScript</h3>
+              <span className="skills__level">Basic</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <box-icon name="badge-check" className="badge-check"></box-icon>
+
+            <div>
               <h3 className="skills__name">HTML</h3>
               <span className="skills__level">Advanced</span>
             </div>
@@ -31,6 +39,22 @@ const Frontend = () => {
             <div>
               <h3 className="skills__name">JavaScript</h3>
               <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <box-icon name="badge-check" className="badge-check"></box-icon>
+
+            <div>
+              <h3 className="skills__name">NextJs</h3>
+              <span className="skills__level">Basic</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <box-icon name="badge-check" className="badge-check"></box-icon>
+
+            <div>
+              <h3 className="skills__name">Zustand</h3>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
         </div>
@@ -59,6 +83,22 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills__name">Tailwind</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <box-icon name="badge-check" className="badge-check"></box-icon>
+
+            <div>
+              <h3 className="skills__name">Tanstack Router</h3>
+              <span className="skills__level">Basic</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <box-icon name="badge-check" className="badge-check"></box-icon>
+
+            <div>
+              <h3 className="skills__name">Tanstack Query</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
