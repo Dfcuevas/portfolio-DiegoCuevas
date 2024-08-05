@@ -2,8 +2,8 @@ import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/perfildiego.jpg";
 import Info from "./Info";
-import CV_English from "../../assets/Cv-English.pdf";
-import CV_Spanish from "../../assets/Cv-DiegoCuevas.pdf";
+import CV_English from "../../assets/CV_English.pdf";
+import CV_Spanish from "../../assets/CV_Spanish.pdf";
 
 const About = () => {
   return (
