@@ -1,7 +1,7 @@
 import Work1 from "../../assets/work1.jpg";
 import Work2 from "../../assets/Chat-app.png";
 import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
+import Work4 from "../../assets/DCStock.png";
 import Work6 from "../../assets/work6.jpg";
 import Work7 from "../../assets/work7.jpg";
 import Work9 from "../../assets/work9.jpg";
@@ -11,6 +11,28 @@ import Work12 from "../../assets/twitter-clone.png";
 import work5 from "../../assets/carePulse-img.png";
 
 export const projectsData = [
+  {
+    id: 1,
+    image: Work4,
+    title: "DCStock App",
+    link: "https://main.d2va3tidas9dgb.amplifyapp.com/dashboard",
+    tools: [
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "Tailwind Css",
+      "NextJs",
+      "Redux Toolkit",
+      "Lucide React",
+      "Recharts",
+      "NodeJs",
+      "Express",
+      "Prisma",
+      "PostgreSQL",
+      "AWS",
+    ],
+    category: "web",
+  },
   {
     id: 1,
     image: work5,
@@ -160,14 +182,6 @@ export const projectsData = [
     link: "https://modernuisite.netlify.app",
     tools: ["HTML", "CSS", "JavaScript", "react", "React-icons"],
     category: "design",
-  },
-  {
-    id: 11,
-    image: Work4,
-    title: "Rick and Morty",
-    link: "https://rymdatapp.netlify.app",
-    tools: ["HTML", "CSS", "JavaScript", "Bootstrap", "react"],
-    category: "app",
   },
 ];
 

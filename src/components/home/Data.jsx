@@ -57,11 +57,14 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Frontend Developer</h3>
       <p className="home__description">
-        +3 Years of experience developing web projects, implementing best
-        development practices, use of languages ​​such as Javascript, CSS and
-        HTML and technologies such as React, React Redux, TailwindCss, Node Js,
-        Git and GitHub. More than 10 personal projects that demonstrate the
-        ability to develop high-quality products and excellent soft skills.
+        Frontend developer with over 2 years of experience creating
+        high-performance and engaging user interfaces. Expert in HTML, CSS, and
+        JavaScript, with mastery of modern frameworks such as React and Next.js.
+        Proven experience in backend technologies such as Node.js, Express,
+        MongoDB, and PostgreSQL. Managed to reduce application loading times by
+        30% through code optimization and lazy loading techniques. Passionate
+        about improving user experience through intuitive, user centered
+        designs, and always staying up to date with the latest industry trends.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello
